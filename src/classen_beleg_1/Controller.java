@@ -21,6 +21,7 @@ public class Controller {
             int numberOfCrawlers = 7;
 
             CrawlConfig config = new CrawlConfig();
+            config.setConnectionTimeout(100);
             config.setCrawlStorageFolder(crawlStorageFolder);
             config.setMaxDepthOfCrawling(10);
             /*
